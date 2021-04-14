@@ -1,0 +1,63 @@
+.body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-popup {
+    display: none;
+    border: 3px solid black;
+    z-index: 9;
+    max-width: 400px;
+    position: relative;
+    left: 500px;
+  }
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  .form-container input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: 1px solid black;
+    background: #f1f1f1;
+  }
+  select{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: 1px solid black;
+    background: #f1f1f1;
+  }
+  .form-container input[type=text]:focus{
+    background-color: #ddd;
+    
+  }
+  
+  .form-container .btn {
+    background-color: black;
+    color: #f1f1f1;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    
+  }
+  #addbtn{
+    background-color: #ebad74;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+    height: 50px;
+  position: relative;
+  left: 600px;
+    
+  }
+  #myTable{
+    border-collapse: collapse;  
+  }
+  
+      

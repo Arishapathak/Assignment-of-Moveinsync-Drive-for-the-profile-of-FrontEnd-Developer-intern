@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment</title>
+    <script src="assignment.js"></script>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+  <!--TABLE -->
+    <table border="2" id="myTable" align="center">
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>City</th>
+            <th>Degree</th>
+            <th>Timestamp</th>
+        </tr>
+    </table>
+
+<!--POP UP FORM FOR ENTERING DATA IN THE TABLE-->
+    <div class="form-popup" id="myForm">
+        <div class="form-container" >
+          <h1>Data</h1>
+      
+          <label for="Name"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" id="Name" required>
+      
+          <label for="City"><b>City</b></label>
+          <select id="City" name="City">
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+          </select>
+
+          <label for="Degree"><b>Degree</b></label>
+          <input type="text" placeholder="Enter Degree" id="Degree" required>
+      
+          <button type="submit" class="btn" onclick="getdata()">Add Data</button>
+          
+        </div>
+      </div>
+
+    <button type="submit" onClick="formdata()" id="addbtn" >Add</button>
+</body>
+</html>
